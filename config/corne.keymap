@@ -2,9 +2,9 @@
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                   \
     ZMK_LAYER(                                                                 \
         name,                                                                  \
-                &kp 1 LT RT &kp 4                                              \
-                &kp 2 LM RM &kp 5                                              \
-                &kp 3 LB RB &kp 6                                              \
+                &kp N1 LT RT &kp N4                                            \
+                &kp N2 LM RM &kp N5                                            \
+                &kp N3 LB RB &kp N6                                            \
         &kp LGUI LH RH &smart_mouse                                            \
     )
 
